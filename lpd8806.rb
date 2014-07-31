@@ -20,7 +20,7 @@ stip_lengh = 32
 board.digital_write(data_pin, Firmata::PinLevels::HIGH)
 board.digital_write(clock_pin, Firmata::PinLevels::HIGH)
 
-def set_pixels(position, colour)
+def set_pixel(position, colour)
   message = "{p: #{position}, c: #{colour}}"
   sys_message(message)
 end
