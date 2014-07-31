@@ -1,0 +1,16 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    event_emitter (0.2.5)
+    ffi (1.9.3)
+    hybridgroup-firmata (0.4.6)
+      event_emitter (~> 0.2.5)
+      rubyserial (~> 0.1.1)
+    rubyserial (0.1.2)
+      ffi (~> 1.9.3)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  hybridgroup-firmata (>= 0.4.6)
