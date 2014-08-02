@@ -23,7 +23,8 @@ class Lpd8806
   end
   
   def set_pixel(position, r,g,b)
-    message = "{r:#{r},g:#{g},b:#{b},p:#{p}}"
+    message = "{r:#{r},g:#{g},b:#{b},p:#{position}}"
+    puts message
     sys_message(message)
   end
   
